@@ -142,6 +142,20 @@ export function checkNoLeak(missions: readonly Mission[], biases: Biases): strin
   return out;
 }
 
+/** Words that would judge the player. Mission text is exempt (§6 M02 says 「必ず撤退」が正解ではない). */
+export const VERDICT_WORDS = ['正解', '不正解', '間違', '引っかか', 'ひっかか', '騙', 'だまさ', '失敗', '弱い', '残念', 'ハズレ', 'はずれ'];
+
+/** UI chrome must never name a theme or pass a verdict. */
+export function checkChrome(copy: Readonly<Record<string, string>>, biases: Biases): string[] {
+  const out: string[] = [];
+  const stems = themeStems(biases);
+  for (const [key, text] of Object.entries(copy)) {
+    for (const stem of stems) if (text.includes(stem)) out.push(`COPY.${key} names the theme "${stem}"`);
+    for (const word of VERDICT_WORDS) if (text.includes(word)) out.push(`COPY.${key} contains verdict word "${word}"`);
+  }
+  return out;
+}
+
 export function checkContent(missions: readonly Mission[], biases: Biases, s6: S6): string[] {
   return [...checkShape(missions, biases, s6), ...checkProvenance(missions, biases, s6), ...checkNoLeak(missions, biases)];
 }

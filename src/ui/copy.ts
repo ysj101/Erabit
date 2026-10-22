@@ -1,0 +1,20 @@
+/** Every UI chrome label. Not mission copy. `npm run verify` scans these for theme names and verdict words. */
+export const COPY = {
+  appName: 'エラビット',
+  start: 'はじめる',
+  missionList: 'ミッション一覧',
+  unplayed: '未プレイ',
+  inProgress: '途中',
+  cleared: 'クリア',
+  next: '次へ',
+  confirm: '確定',
+  yourChoice: '自分の選択',
+  theme: '学習テーマ',
+  nextMission: '次のミッション',
+  toList: 'ミッション一覧へ',
+  toTitle: 'タイトルへ',
+  settings: '設定',
+  deleteData: 'データ削除',
+  deleteConfirm: '削除する',
+  cancel: 'やめる',
+} as const satisfies Readonly<Record<string, string>>;
