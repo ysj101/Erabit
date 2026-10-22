@@ -1,0 +1,16 @@
+{
+  "color": {
+    "background": "#FFF8F0",
+    "ink": "#273F5A",
+    "coral": "#FF917B",
+    "blue": "#7099C4",
+    "brown": "#5D3827",
+    "yellow": "#FFD56E",
+    "mint": "#BDE4D6"
+  },
+  "radius": {
+    "card": 24,
+    "button": 18
+  },
+  "mascot": "era"
+}

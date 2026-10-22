@@ -1,0 +1,246 @@
+{
+  "name": "Erabit asset pack",
+  "note": "Concept-stage assets. Generated illustrations and cutout PNGs are for MVP exploration; final artwork may need cleanup.",
+  "assets": [
+    {
+      "file": "assets/brand/app-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true
+    },
+    {
+      "file": "assets/brand/app-icon-256.png",
+      "width": 256,
+      "height": 256,
+      "transparent": true
+    },
+    {
+      "file": "assets/brand/app-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "transparent": true
+    },
+    {
+      "file": "assets/brand/github-social-preview.png",
+      "width": 1200,
+      "height": 630,
+      "transparent": false
+    },
+    {
+      "file": "assets/brand/wordmark-transparent.png",
+      "width": 920,
+      "height": 270,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-investigating.png",
+      "width": 408,
+      "height": 472,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-jumping.png",
+      "width": 364,
+      "height": 448,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-pointing.png",
+      "width": 336,
+      "height": 500,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-reading.png",
+      "width": 328,
+      "height": 412,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-running.png",
+      "width": 364,
+      "height": 404,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-action-walking.png",
+      "width": 340,
+      "height": 416,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-back.png",
+      "width": 400,
+      "height": 680,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-calm.png",
+      "width": 308,
+      "height": 408,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-cheerful.png",
+      "width": 324,
+      "height": 428,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-confident.png",
+      "width": 328,
+      "height": 424,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-crying.png",
+      "width": 336,
+      "height": 384,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-determined.png",
+      "width": 344,
+      "height": 460,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-happy.png",
+      "width": 320,
+      "height": 444,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-idea.png",
+      "width": 348,
+      "height": 432,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-shy.png",
+      "width": 304,
+      "height": 440,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-sleeping.png",
+      "width": 360,
+      "height": 364,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-smile.png",
+      "width": 324,
+      "height": 448,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-sparkle.png",
+      "width": 336,
+      "height": 408,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-surprised.png",
+      "width": 332,
+      "height": 440,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-thinking.png",
+      "width": 328,
+      "height": 456,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-expression-worried.png",
+      "width": 312,
+      "height": 460,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-front.png",
+      "width": 456,
+      "height": 724,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-hero.png",
+      "width": 627,
+      "height": 855,
+      "transparent": true
+    },
+    {
+      "file": "assets/character/era-side.png",
+      "width": 440,
+      "height": 708,
+      "transparent": true
+    },
+    {
+      "file": "assets/previews/expressions-contact-sheet.png",
+      "width": 1330,
+      "height": 540,
+      "transparent": false
+    },
+    {
+      "file": "assets/previews/mission-01-mockup.png",
+      "width": 720,
+      "height": 1280,
+      "transparent": false
+    },
+    {
+      "file": "assets/previews/poses-contact-sheet.png",
+      "width": 770,
+      "height": 780,
+      "transparent": false
+    },
+    {
+      "file": "assets/props/carrot.png",
+      "width": 264,
+      "height": 292,
+      "transparent": true
+    },
+    {
+      "file": "assets/props/magnifier.png",
+      "width": 240,
+      "height": 296,
+      "transparent": true
+    },
+    {
+      "file": "assets/props/map.png",
+      "width": 312,
+      "height": 264,
+      "transparent": true
+    },
+    {
+      "file": "assets/props/notebook.png",
+      "width": 256,
+      "height": 288,
+      "transparent": true
+    },
+    {
+      "file": "assets/props/satchel.png",
+      "width": 320,
+      "height": 272,
+      "transparent": true
+    },
+    {
+      "file": "assets/props/scarf.png",
+      "width": 304,
+      "height": 244,
+      "transparent": true
+    },
+    {
+      "file": "assets/source/character-concept-sheet.png",
+      "width": 1536,
+      "height": 1024,
+      "transparent": true
+    },
+    {
+      "file": "assets/source/visual-direction-board.png",
+      "width": 1536,
+      "height": 1024,
+      "transparent": true
+    }
+  ]
+}
