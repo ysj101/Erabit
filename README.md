@@ -50,6 +50,21 @@
 
 技術方針：React / TypeScript / Vite / Tailwind CSS / Motion / localStorage。バックエンドなしで公開可能な構成を想定しています。
 
+## 起動手順
+
+公開URL：https://ysj101.github.io/Erabit/
+
+Node.js 22 を使います。
+
+```bash
+npm ci
+npm run dev        # 開発サーバー http://localhost:5173/Erabit/
+npm run typecheck  # 型チェック
+npm run verify     # ミッション文言とゲームのルールの検査
+npm run build      # dist/ に静的ファイルを出力
+npm run preview    # ビルド結果の確認 http://localhost:4173/Erabit/
+```
+
 ## このリポジトリについて
 
 現段階では仕様書とコンセプト画像のパッケージであり、実装済みのゲームではありません。キャラクターの画像はMVP検討用のAI生成・切り出し素材です。画像中の細かな表現は必要に応じて再調整します。

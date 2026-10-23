@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Runs a browser journey against the launched instance. See SKILL.md for journeys and flags.
+set -euo pipefail
+source "$(dirname "$0")/env.sh"
+export CHROME="$(find_chrome)"
+exec "$REPO/node_modules/.bin/tsx" "$SKILL_DIR/scripts/drive.ts" "$@"

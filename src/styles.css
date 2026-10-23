@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FFF8F0;
+  --color-ink: #273F5A;
+  --color-coral: #FF917B;
+  --color-blue: #7099C4;
+  --color-brown: #5D3827;
+  --color-yellow: #FFD56E;
+  --color-mint: #BDE4D6;
+  --radius-card: 24px;
+  --radius-button: 18px;
+  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-background);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+}
